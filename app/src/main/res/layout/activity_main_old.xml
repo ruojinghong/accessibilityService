@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="#fff1315d" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="需要定制功能（不限抖音）可联系客服：QQ2966376063" />
+            <TextView android:textSize="20.0sp" android:textColor="#ff99d2f9" android:gravity="center" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="基础设置" />
+            <Button android:id="@id/setBallPermission" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="设置悬浮球权限" />
+            <Button android:id="@id/setAccessibilityPermission" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="开启无障碍服务" />
+            <TextView android:textSize="20.0sp" android:textColor="#ff99d2f9" android:gravity="center" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="功能设置" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/funcDyYingLiu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:text="智能引流" android:layout_weight="1.0" />
+                <Button android:id="@id/funcDyYangHao" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="智能养号" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/funcDyQuGuan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:text="智能取关" android:layout_weight="1.0" />
+                <Button android:id="@id/funcDyBothGuan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="互关互助" android:layout_weight="1.0" />
+                <Button android:id="@id/funcDyFenGuan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="粉丝关注" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/funcDyShiXing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:text="私信粉丝" android:layout_weight="1.0" />
+                <Button android:id="@id/funcDyLive" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="直播引流" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="20.0sp" android:textColor="#ff99d2f9" android:gravity="center" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="使用说明" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1、点击设置“悬浮球权限”，设置成功会出现“悬浮球”，如未出现，请重启应用" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="2、开启“无障碍服务”，开启成功会变成蓝色，如果异常退出，需要重新开启" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="3、目前有六个基础功能，可分别进入“功能设置”配置运行参数，并查看使用说明" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="4、提前进入抖音的指定界面，点击“悬浮球”，运行指定功能" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="5、有任何问题，或需要定制新功能（不限抖音），可联系客服：QQ2966376063" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="6、随着抖音软件的升级，系统可能不兼容，可联系客服处理" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/activePage" android:background="#ffffffff" android:padding="20.0dip" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:textColor="#fff1315d" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="联系客服购买激活码：QQ2966376063" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设备号" />
+        <EditText android:textSize="18.0sp" android:textColor="#ff000000" android:textColorHint="#ff474b4c" android:gravity="center" android:id="@id/activeCode" android:background="@drawable/edit_bg" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="" android:hint="输入激活码" android:inputType="textPersonName" />
+        <com.lisyx.tap.view.ClickImageView android:id="@id/activeBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:src="@drawable/img_btn_ok" />
+    </LinearLayout>
+</RelativeLayout>

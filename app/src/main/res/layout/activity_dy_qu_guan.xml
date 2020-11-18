@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textColor="#ff99d2f9" android:gravity="center" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="智能取关" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="取关次数：" />
+            <EditText android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="left" android:id="@id/guanCount" android:background="@drawable/edit_bg" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="10000" android:inputType="number" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="运行速度（秒）：" />
+            <EditText android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="left" android:id="@id/runSpeed" android:background="@drawable/edit_bg" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="10000" android:inputType="number" />
+            <TextView android:textSize="20.0sp" android:textColor="#ff99d2f9" android:gravity="center" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="使用说明" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1、在以下界面运行此功能" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/img_dy_qu_guan" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

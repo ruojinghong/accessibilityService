@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:padding="10.0dip">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10.0dip"
+                android:text="智能引流"
+                android:textColor="#ff99d2f9"
+                android:textSize="20.0sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:text="评论@："
+                android:textColor="#ff000000"
+                android:textSize="18.0sp" />
+
+            <EditText
+                android:id="@id/atTarget"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:background="@drawable/edit_bg"
+                android:gravity="left"
+                android:inputType="textPersonName"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="5.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingBottom="5.0dip"
+                android:text="10000"
+                android:textColor="#ff000000"
+                android:textSize="18.0sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:text="运行速度（秒）："
+                android:textColor="#ff000000"
+                android:textSize="18.0sp" />
+
+            <EditText
+                android:id="@id/runSpeed"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:background="@drawable/edit_bg"
+                android:gravity="left"
+                android:inputType="number"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="5.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingBottom="5.0dip"
+                android:text="10000"
+                android:textColor="#ff000000"
+                android:textSize="18.0sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:text="话术设置："
+                android:textColor="#ff000000"
+                android:textSize="18.0sp" />
+
+            <EditText
+                android:id="@id/msg0"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:background="@drawable/edit_bg"
+                android:gravity="left"
+                android:inputType="textPersonName"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="5.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingBottom="5.0dip"
+                android:text="文本文本文本文本"
+                android:textColor="#ff000000"
+                android:textSize="18.0sp" />
+
+            <EditText
+                android:id="@id/msg1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:background="@drawable/edit_bg"
+                android:gravity="left"
+                android:inputType="textPersonName"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="5.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingBottom="5.0dip"
+                android:text="文本文本文本文本"
+                android:textColor="#ff000000"
+                android:textSize="18.0sp" />
+
+            <EditText
+                android:id="@id/msg2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:background="@drawable/edit_bg"
+                android:gravity="left"
+                android:inputType="textPersonName"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="5.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingBottom="5.0dip"
+                android:text="文本文本文本文本"
+                android:textColor="#ff000000"
+                android:textSize="18.0sp" />
+
+            <EditText
+                android:id="@id/msg3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:background="@drawable/edit_bg"
+                android:gravity="left"
+                android:inputType="textPersonName"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="5.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingBottom="5.0dip"
+                android:text="文本文本文本文本"
+                android:textColor="#ff000000"
+                android:textSize="18.0sp" />
+
+            <EditText
+                android:id="@id/msg4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:background="@drawable/edit_bg"
+                android:gravity="left"
+                android:inputType="textPersonName"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="5.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingBottom="5.0dip"
+                android:text="文本文本文本文本"
+                android:textColor="#ff000000"
+                android:textSize="18.0sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10.0dip"
+                android:text="使用说明"
+                android:textColor="#ff99d2f9"
+                android:textSize="20.0sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10.0dip"
+                android:text="1、在以下界面运行此功能"
+                android:textColor="#ff000000"
+                android:textSize="16.0sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_dy_ying_liu" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

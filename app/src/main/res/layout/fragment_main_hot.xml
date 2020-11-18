@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff242424" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo" />
+            <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/comp_name" />
+        </LinearLayout>
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1、点击设置“悬浮球权限”，设置成功会出现“悬浮球”，如未出现，请重启应用" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="2、开启“无障碍服务”，开启成功会变成蓝色，如果异常退出，需要重新开启" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="3、目前有六个基础功能，可分别进入“功能设置”配置运行参数，并查看使用说明" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="4、提前进入抖音的指定界面，点击“悬浮球”，运行指定功能" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="5、本软件仅限用于研究学习等合法用途，严禁用于任何非法用途！软件作者与销售人员对任何原因在使用本产品中提供的软件时可能对用户自己或他人造成任何形式的损失和伤害不承担责任！ " />
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="6、请合法使用软件，本软件的解释权归 巨能引擎 所有。" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
